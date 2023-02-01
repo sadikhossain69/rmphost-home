@@ -5,10 +5,10 @@ const HeroSection = () => {
     return (
         <>
             <section id="Hero_part">
-                <div class="container finishss">
-                    <div class="row heros_row">
-                        <div class="col-lg-7 m-0 p-0">
-                            <div class="hero_left">
+                <div className="container finishss">
+                    <div className="row heros_row">
+                        <div className="col-lg-7 m-0 p-0">
+                            <div className="hero_left">
                                 <h1>We Will Help Your Business
                                     <span>Grow 2x</span> Times Using Our Best Technologies</h1>
 
@@ -16,15 +16,16 @@ const HeroSection = () => {
                                     rpmhost is a Professional software and website agency Platform. Here we will provide you only interesting content, which you will like very much. Were dedicated to providing you the best of software and website agency. </p>
                             </div>
                         </div>
-                        <div class="col-lg-5">
-                            <div class="hero_right">
+                        <div className="col-lg-5">
+                            <div className="hero_right">
                                 <Image
                                     src={Banner1}
                                     alt="Picture of the Banner1"
                                     width={500}
+                                    priority={true}
                                 />
                             </div>
-                            <div class="finish_projects">
+                            <div className="finish_projects">
                                 <p>150 <span>+</span> </p>
                                 <h6>Finish Projects</h6>
                             </div>
