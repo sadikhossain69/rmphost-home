@@ -21,6 +21,7 @@ const HeroSection = () => {
                                 <Image
                                     src={Banner1}
                                     alt="Picture of the Banner1"
+                                    width={500}
                                 />
                             </div>
                             <div class="finish_projects">
