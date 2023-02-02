@@ -9,10 +9,10 @@ const LogoSection = () => {
     return (
         <>
             <section id="logo_part">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg col-6 col-md-auto">
-                            <div class="logos logos_mar">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-lg col-6 col-md-auto">
+                            <div className="logos logos_mar">
                                 <Image
                                     src={Logo5}
                                     alt="Picture of the Logo5"
@@ -20,8 +20,8 @@ const LogoSection = () => {
                                 />
                             </div>
                         </div>
-                        <div class="col-lg col-6 col-md-auto">
-                            <div class="logos logos_mar">
+                        <div className="col-lg col-6 col-md-auto">
+                            <div className="logos logos_mar">
                                 <Image
                                     src={Logo2}
                                     alt="Picture of the Logo2"
@@ -29,8 +29,8 @@ const LogoSection = () => {
                                 />
                             </div>
                         </div>
-                        <div class="col-lg col-6 col-md-auto">
-                            <div class="logos">
+                        <div className="col-lg col-6 col-md-auto">
+                            <div className="logos">
                                 <Image
                                     src={Logo3}
                                     alt="Picture of the Logo3"
@@ -38,8 +38,8 @@ const LogoSection = () => {
                                 />
                             </div>
                         </div>
-                        <div class="col-lg col-6 col-md-auto">
-                            <div class="logos">
+                        <div className="col-lg col-6 col-md-auto">
+                            <div className="logos">
                                 <Image
                                     src={Logo4}
                                     alt="Picture of the Logo4"
@@ -47,8 +47,8 @@ const LogoSection = () => {
                                 />
                             </div>
                         </div>
-                        <div class="col-lg col-6 col-md-auto">
-                            <div class="logos marsis">
+                        <div className="col-lg col-6 col-md-auto">
+                            <div className="logos marsis">
                                 <Image
                                     src={Logo1}
                                     alt="Picture of the Logo1"
