@@ -1,3 +1,4 @@
+import FooterSection from '@/components/FooterSection/FooterSection'
 import HeroSection from '@/components/HeroSection/HeroSection'
 import LogoSection from '@/components/LogoSection/LogoSection'
 import Head from 'next/head'
@@ -20,6 +21,9 @@ export default function Home() {
 
       {/* Logo Section Imported */}
       <LogoSection />
+
+      {/* Footer Section Imported */}
+      <FooterSection />
     </>
   )
 }
