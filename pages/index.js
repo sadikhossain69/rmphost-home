@@ -4,6 +4,7 @@ import HeroSection from '@/components/HeroSection/HeroSection'
 import LatestProject from '@/components/LatestProject/LatestProject'
 import LogoSection from '@/components/LogoSection/LogoSection'
 import Navbar from '@/components/Navbar/Navbar'
+import OurTeam from '@/components/OurTeam/OurTeam'
 import ServiceSection from '@/components/ServiceSection/ServiceSection'
 import WeGaveSection from '@/components/WeGaveSection/WeGaveSection'
 import Head from 'next/head'
@@ -42,6 +43,9 @@ export default function Home() {
 
       {/* We Gave Section Imported */}
       <WeGaveSection />
+
+      {/* Our Team Section Imported */}
+      <OurTeam/>
 
       {/* Footer Section Imported */}
       <FooterSection />
