@@ -3,6 +3,7 @@ import Client2 from '@/assets/client2.png';
 import Client3 from '@/assets/client3.png';
 import Client4 from '@/assets/client4.png';
 import Image from 'next/image';
+import CountUp from 'react-countup';
 
 const CounterSection = () => {
     return (
@@ -19,7 +20,7 @@ const CounterSection = () => {
                                     />
                                 </div>
                                 <div className="counter_content">
-                                    <h4>150 <span>+</span></h4>
+                                    <h4><CountUp end={150} duration={3} /> <span>+</span></h4>
                                     <h5>Projects</h5>
                                 </div>
                             </div>
@@ -33,7 +34,7 @@ const CounterSection = () => {
                                     />
                                 </div>
                                 <div className="counter_content">
-                                    <h4>110 <span>+</span></h4>
+                                    <h4><CountUp end={120} duration={2.79} />  <span>+</span></h4>
                                     <h5>Clients</h5>
                                 </div>
                             </div>
@@ -47,7 +48,7 @@ const CounterSection = () => {
                                     />
                                 </div>
                                 <div className="counter_content">
-                                    <h4>120 <span>+</span></h4>
+                                    <h4><CountUp end={120} duration={2.79} />  <span>+</span></h4>
                                     <h5>Success</h5>
                                 </div>
                             </div>
@@ -61,7 +62,7 @@ const CounterSection = () => {
                                     />
                                 </div>
                                 <div className="counter_content">
-                                    <h4>100 <span>+</span></h4>
+                                    <h4><CountUp end={100} duration={2.50} />  <span>+</span></h4>
                                     <h5>Awards</h5>
                                 </div>
                             </div>
