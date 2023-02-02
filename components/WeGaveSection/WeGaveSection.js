@@ -48,7 +48,7 @@ const WeGaveSection = () => {
                                 <Image
                                     src={gaveOffer}
                                     alt="gaveOffer"
-                                    width={500}
+                                    width={600}
                                 />
                             </div>
                             <div className="most_rating">

@@ -18,13 +18,28 @@ const LogoSection = () => {
                     <div className="row">
                         <Swiper
                             spaceBetween={100}
-                            slidesPerView={3}
+                            breakpoints={{
+                                // when window width is >= 640px
+                                500: {
+                                  width: 500,
+                                  slidesPerView: 2,
+                                },
+                                // when window width is >= 768px
+                                768: {
+                                  width: 768,
+                                  slidesPerView: 3,
+                                },
+                                992: {
+                                  width: 992,
+                                  slidesPerView: 4,
+                                },
+                              }}
                             onSlideChange={() => console.log('slide change')}
                             onSwiper={(swiper) => console.log(swiper)}
 
                         >
                             <SwiperSlide>
-                                <div className="col-lg col-6 col-md-auto">
+                                <div className="col-lg col-12 col-md-auto">
                                     <div className="logos logos_mar">
                                         <Image
                                             src={Logo5}
@@ -35,7 +50,7 @@ const LogoSection = () => {
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
-                                <div className="col-lg col-6 col-md-auto">
+                                <div className="col-lg col-12 col-md-auto">
                                     <div className="logos logos_mar">
                                         <Image
                                             src={Logo2}
@@ -46,7 +61,7 @@ const LogoSection = () => {
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
-                                <div className="col-lg col-6 col-md-auto">
+                                <div className="col-lg col-12 col-md-auto">
                                     <div className="logos">
                                         <Image
                                             src={Logo3}
@@ -57,7 +72,7 @@ const LogoSection = () => {
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
-                                <div className="col-lg col-6 col-md-auto">
+                                <div className="col-lg col-12 col-md-auto">
                                     <div className="logos">
                                         <Image
                                             src={Logo4}
@@ -68,7 +83,7 @@ const LogoSection = () => {
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
-                                <div className="col-lg col-6 col-md-auto">
+                                <div className="col-lg col-12 col-md-auto">
                                     <div className="logos marsis">
                                         <Image
                                             src={Logo1}

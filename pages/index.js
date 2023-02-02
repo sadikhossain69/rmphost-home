@@ -24,7 +24,7 @@ export default function Home() {
       <Script src="https://kit.fontawesome.com/a7d5affee1.js" crossOrigin="anonymous"></Script>
 
       {/* Navbar Imported */}
-      {/* <Navbar /> */}
+      <Navbar />
 
       {/* Hero Section Imported */}
       <HeroSection />
