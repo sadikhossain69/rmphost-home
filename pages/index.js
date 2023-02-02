@@ -1,3 +1,4 @@
+import CounterSection from '@/components/CounterSection/CounterSection'
 import FooterSection from '@/components/FooterSection/FooterSection'
 import HeroSection from '@/components/HeroSection/HeroSection'
 import LogoSection from '@/components/LogoSection/LogoSection'
@@ -26,6 +27,9 @@ export default function Home() {
 
       {/* Service Section Imported */}
       <ServiceSection />
+
+      {/* Counter Section Imported */}
+      <CounterSection />
 
       {/* Footer Section Imported */}
       <FooterSection />
