@@ -5,6 +5,7 @@ import LatestProject from '@/components/LatestProject/LatestProject'
 import LogoSection from '@/components/LogoSection/LogoSection'
 import Navbar from '@/components/Navbar/Navbar'
 import ServiceSection from '@/components/ServiceSection/ServiceSection'
+import WeGaveSection from '@/components/WeGaveSection/WeGaveSection'
 import Head from 'next/head'
 import Script from 'next/script'
 
@@ -38,6 +39,9 @@ export default function Home() {
 
       {/* Latest Project Section Imported */}
       <LatestProject />
+
+      {/* We Gave Section Imported */}
+      <WeGaveSection />
 
       {/* Footer Section Imported */}
       <FooterSection />
