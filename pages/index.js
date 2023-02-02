@@ -1,6 +1,7 @@
 import CounterSection from '@/components/CounterSection/CounterSection'
 import FooterSection from '@/components/FooterSection/FooterSection'
 import HeroSection from '@/components/HeroSection/HeroSection'
+import LatestProject from '@/components/LatestProject/LatestProject'
 import LogoSection from '@/components/LogoSection/LogoSection'
 import ServiceSection from '@/components/ServiceSection/ServiceSection'
 import Head from 'next/head'
@@ -30,6 +31,9 @@ export default function Home() {
 
       {/* Counter Section Imported */}
       <CounterSection />
+
+      {/* Latest Project Section Imported */}
+      <LatestProject />
 
       {/* Footer Section Imported */}
       <FooterSection />
