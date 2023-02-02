@@ -135,7 +135,7 @@ p{
     text-align: center;
 }
 .logos img{
-    max-width: 130px;
+    /* max-width: 130px; */
     align-items: center;
 }
 .logos_mar{
