@@ -17,6 +17,8 @@ export default function Home() {
 
       {/* Hero Section Imported */}
       <HeroSection />
+
+      {/* Logo Section Imported */}
       <LogoSection />
     </>
   )
