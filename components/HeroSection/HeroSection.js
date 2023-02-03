@@ -9,7 +9,7 @@ const HeroSection = () => {
                     <div className="row heros_row">
                         <div data-aos="fade-right" className="col-lg-7 m-0 p-0">
                             <div className="hero_left">
-                                <h1>We Will Help Your Business
+                                <h1>We Will Help Your Business <br />
                                     <span>Grow 2x</span> Times Using Our Best Technologies</h1>
 
                                 <p>Welcome To rpmhost
