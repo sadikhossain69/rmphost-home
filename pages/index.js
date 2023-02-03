@@ -1,3 +1,4 @@
+import ContactUsSection from '@/components/ContactUsSection/ContactUsSection'
 import CounterSection from '@/components/CounterSection/CounterSection'
 import FooterSection from '@/components/FooterSection/FooterSection'
 import HeroSection from '@/components/HeroSection/HeroSection'
@@ -45,7 +46,10 @@ export default function Home() {
       <WeGaveSection />
 
       {/* Our Team Section Imported */}
-      <OurTeam/>
+      <OurTeam />
+
+      {/* Contact Us Section Imported */}
+      <ContactUsSection />
 
       {/* Footer Section Imported */}
       <FooterSection />
