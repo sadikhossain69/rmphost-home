@@ -32,7 +32,7 @@ const ContactUsSection = () => {
                             <h6>Contact our experts</h6>
                         </div>
                     </div>
-                    <div data-aos="fade-right" className="col-lg-6">
+                    <div data-aos="fade-left" className="col-lg-6">
                         <div className="contact_right">
                             <h2>Ready To <span>Start</span> Your Business ?</h2>
                             <h4>Contact and tell us what you needed</h4>
