@@ -110,7 +110,7 @@ p{
     padding:20px 0;
     text-align: center;
     border-radius: 10px;
-    bottom: -5%;
+    bottom: -9%;
     right: -2%;
 }
 .finish_projects p{
@@ -152,13 +152,15 @@ p{
     padding-top: 100px;
 }
 .service_1 {
-    background: linear-gradient(#ec4646e6,#b08bf38f);
+    border: 1px solid rgb(47, 238, 212);
     padding: 15px;
     border-radius: 10px;
     height: 390px;
+    transition:all linear .5s;
 }
 .service_1:hover{
-    /* box-shadow:1px 2px 5px 5px rgb(214, 92, 92); */
+    box-shadow: 0px 0px 8px 1px rgb(47 238 212);
+    transform: translateY(-5px);
 }
 .service_header h2{
     color:var(--primary-background);    

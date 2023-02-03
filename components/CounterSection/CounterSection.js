@@ -20,7 +20,7 @@ const CounterSection = () => {
                                     />
                                 </div>
                                 <div className="counter_content">
-                                    <h4><CountUp end={150} duration={3} /> <span>+</span></h4>
+                                    <h4><CountUp end={45} duration={3} /> <span>+</span></h4>
                                     <h5>Projects</h5>
                                 </div>
                             </div>

@@ -26,7 +26,7 @@ const HeroSection = () => {
                                 />
                             </div>
                             <div className="finish_projects">
-                                <p>150 <span>+</span> </p>
+                                <p>45 <span>+</span> </p>
                                 <h6>Finish Projects</h6>
                             </div>
                         </div>
