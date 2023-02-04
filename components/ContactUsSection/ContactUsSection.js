@@ -1,6 +1,16 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { useForm } from 'react-hook-form';
 
 const ContactUsSection = () => {
+
+    const { register, formState: { errors }, reset, handleSubmit, control } = useForm()
+    const [message, setMessage] = useState('')
+
+    const handleContactForm = data => {
+        console.log(data, message)
+        // reset()
+    }
+
     return (
         <section id="contact_part">
             <div className="container contact_position">
@@ -10,18 +20,48 @@ const ContactUsSection = () => {
                 <div className="row">
                     <div data-aos="fade-right" className="col-lg-6">
                         <div className="contact_left">
-                            <form action="">
+                            <form onSubmit={handleSubmit(handleContactForm)}>
                                 <div className="input">
-                                    <input type="text" placeholder="Your Name"/>
+                                    <input {...register('name', {
+                                        required: {
+                                            value: true,
+                                            message: 'Name is required',
+                                        },
+                                        minLength: {
+                                            value: 3,
+                                            message: 'Name must be at least 3 characters',
+                                        },
+                                    })} type="text" placeholder="Your Name" />
                                 </div>
                                 <div className="input">
-                                    <input type="text" placeholder="Your Email"/>
+                                    <input {...register('email', {
+                                        required: {
+                                            value: true,
+                                            message: "Email is Required"
+                                        },
+                                        pattern: {
+                                            value: /[a-z0-9]+@[a-z]+\.[a-z]{2,3}/,
+                                            message: "Provide a valid email"
+                                        }
+                                    })} type="text" placeholder="Your Email" />
                                 </div>
                                 <div className="input">
-                                    <input type="text" placeholder="Your Subject"/>
+                                    <input {...register('subject', {
+                                        required: {
+                                            value: true,
+                                            message: 'Subject is required',
+                                        },
+                                        minLength: {
+                                            value: 3,
+                                            message: 'Subject must be at least 3 characters',
+                                        },
+                                    })} type="text" placeholder="Your Subject" />
                                 </div>
                                 <div className="message">
-                                    <textarea name="" id="" cols="30" rows="6" placeholder="Message"></textarea>
+                                    <textarea
+                                    value={message}
+                                    onChange={e => setMessage(e.target.value)}
+                                    name="message" id="" cols="30" rows="6" placeholder="Message"></textarea>
                                 </div>
                                 <div className="submit_btn">
                                     <button type="submit">Submit</button>
