@@ -1,5 +1,12 @@
 import React, { useState } from 'react';
 import { useForm } from 'react-hook-form';
+import emailjs from "@emailjs/browser";
+
+
+// service_bt81aau - service id
+// template_c0rx2js - template id
+// 5U2LXCuzS0zCM_ZRJ - public key
+
 
 const ContactUsSection = () => {
 
@@ -7,6 +14,18 @@ const ContactUsSection = () => {
     const [message, setMessage] = useState('')
 
     const handleContactForm = data => {
+
+        const emailTemplateParams = {
+            name: data.name,
+            email: data.email,
+            subject: data.subject,
+            message: message
+        }
+
+        emailjs.send('service_bt81aau', 'template_c0rx2js', emailTemplateParams, '5U2LXCuzS0zCM_ZRJ')
+            .then(res => {console.log(res)})
+            .catch(err => {console.log(err)})
+
         console.log(data, message)
         // reset()
     }
