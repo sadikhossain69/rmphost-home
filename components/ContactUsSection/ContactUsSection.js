@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useForm } from 'react-hook-form';
 import emailjs from "@emailjs/browser";
+import cogoToast from 'cogo-toast'; // npm install cogo-toast
 
 
 // service_bt81aau - service id
@@ -23,8 +24,14 @@ const ContactUsSection = () => {
         }
 
         emailjs.send('service_bt81aau', 'template_c0rx2js', emailTemplateParams, '5U2LXCuzS0zCM_ZRJ')
-            .then(res => {console.log(res)})
-            .catch(err => {console.log(err)})
+            .then(res => {
+                if (res.status === 200) {
+                    cogoToast.success('Message sent successfully')
+                }
+            })
+            .catch(err => {
+                cogoToast.error('Something went wrong')
+            })
 
         console.log(data, message)
         // reset()
@@ -78,9 +85,9 @@ const ContactUsSection = () => {
                                 </div>
                                 <div className="message">
                                     <textarea
-                                    value={message}
-                                    onChange={e => setMessage(e.target.value)}
-                                    name="message" id="" cols="30" rows="6" placeholder="Message"></textarea>
+                                        value={message}
+                                        onChange={e => setMessage(e.target.value)}
+                                        name="message" id="" cols="30" rows="6" placeholder="Message"></textarea>
                                 </div>
                                 <div className="submit_btn">
                                     <button type="submit">Submit</button>
