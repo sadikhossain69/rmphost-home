@@ -1,6 +1,10 @@
 import React from 'react';
 import gaveOffer from '@/assets/gave_offer.png';
 import Image from 'next/image';
+import { AiFillStar } from 'react-icons/ai';
+import { BsFillTelephoneFill } from 'react-icons/bs';
+import { HiUserGroup } from 'react-icons/hi';
+import { BiShuffle } from 'react-icons/bi';
 
 const WeGaveSection = () => {
     return (
@@ -16,7 +20,7 @@ const WeGaveSection = () => {
                                 </div>
                                 <div data-aos="fade-right" className="gave_items d-flex">
                                     <div className="shuffle_icon">
-                                        <i className="fa-solid fa-shuffle"></i>
+                                        <BiShuffle className='gave_icon_left' />
                                     </div>
                                     <div className="gaves_content">
                                         <h5>Cross check</h5>
@@ -25,7 +29,7 @@ const WeGaveSection = () => {
                                 </div>
                                 <div data-aos="fade-right" className="gave_items1 d-flex">
                                     <div className="shuffle_icon shuf_icons">
-                                        <i className="fas fa-phone-volume"></i>
+                                        <BsFillTelephoneFill className='gave_icon_left' />
                                     </div>
                                     <div className="gaves_content">
                                         <h5>24hrs Customer Support</h5>
@@ -34,7 +38,7 @@ const WeGaveSection = () => {
                                 </div>
                                 <div data-aos="fade-right" className="gave_items2 d-flex">
                                     <div className="shuffle_icon">
-                                        <i className="fa-solid fa-users"></i>
+                                        <HiUserGroup className='gave_icon_left' />
                                     </div>
                                     <div className="gaves_content">
                                         <h5>Fast & reliable</h5>
@@ -53,11 +57,11 @@ const WeGaveSection = () => {
                             </div>
                             <div className="most_rating">
                                 <div className="most_icon">
-                                    <i className="fa-solid fa-star"></i>
-                                    <i className="fa-solid fa-star"></i>
-                                    <i className="fa-solid fa-star"></i>
-                                    <i className="fa-solid fa-star"></i>
-                                    <i className="fa-solid fa-star stars"></i>
+                                    <AiFillStar className='most_icon_star' size={25} />
+                                    <AiFillStar className='most_icon_star' size={25} />
+                                    <AiFillStar className='most_icon_star' size={25} />
+                                    <AiFillStar className='most_icon_star' size={25} />
+                                    <AiFillStar className='most_icon_star_white' size={21} />
                                 </div>
                                 <p>The Most Rating We Get</p>
                             </div>

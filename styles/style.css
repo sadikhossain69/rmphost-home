@@ -340,7 +340,7 @@ margin-bottom: 40px;
 .gave_header h4{
     color: #f79453;
 }
-.shuffle_icon i{
+.shuffle_icon .gave_icon_left{
     color:var(--primary-background);
     font-size: 34px;
     margin-top: 12px;
@@ -379,9 +379,12 @@ margin-bottom: 40px;
     margin-top: 7px;
     font-weight: 600;
 }
-.most_icon i{
+.most_icon .most_icon_star{
     color:gold;
     padding-right: 5px;
+}
+.most_icon_star_white{
+    color: var(--primary-background);
 }
 .stars{
     color: var(--primary-background)!important;
