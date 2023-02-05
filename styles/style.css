@@ -718,3 +718,18 @@ text-transform: uppercase;
     margin-left: 25px;
 }
 /* footer part css  */
+
+
+/* Whatsapp icon desing part start */
+.whatsapp_icon {
+    position: fixed;
+    color: white;
+    right: 30px;
+    bottom: 30px;
+    background-image: radial-gradient(#48bcf1,#060606);
+    /* width: 70px;
+    height: 70px; */
+    padding: 11px;
+    border-radius: 50%;
+}
+/* Whatsapp icon desing part end */
