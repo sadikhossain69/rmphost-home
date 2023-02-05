@@ -3,6 +3,9 @@ import Sakkhar from '@/assets/teams1.jpeg';
 import Sadik from '@/assets/teams_3.jpg';
 import Manabendra from '@/assets/teams_3.jpeg';
 import Image from 'next/image';
+import { FaFacebookF } from 'react-icons/fa';
+import { AiFillLinkedin } from 'react-icons/ai';
+import { FiInstagram } from 'react-icons/fi';
 
 const OurTeam = () => {
     return (
@@ -22,9 +25,15 @@ const OurTeam = () => {
                                         width={350}
                                     />
                                     <div className="overlay">
-                                        <a href="https://www.facebook.com/prodipdas.prodipdas.18041"><i className="fa-brands fa-facebook-f"></i></a>
-                                        <a href="https://www.linkedin.com/in/sakkhar-mjmdr-a89b21259"><i className="fa-brands fa-linkedin-in"></i></a>
-                                        <a href="https://www.instagram.com/sakkharmjmdr/?igshid=ZmZhODViOGI%3D&fbclid=IwAR0l50Rd_0BddT0ZNu3mcNz4ZTpelVj882Zv6vtrVpll1YCCXfAY1n-rnBY"><i className="fa-brands fa-instagram"></i></a>
+                                        <a href="https://www.facebook.com/prodipdas.prodipdas.18041">
+                                            <FaFacebookF className='team_social' />
+                                        </a>
+                                        <a href="https://www.linkedin.com/in/sakkhar-mjmdr-a89b21259">
+                                            <AiFillLinkedin className='team_social' />
+                                        </a>
+                                        <a href="https://www.instagram.com/sakkharmjmdr/?igshid=ZmZhODViOGI%3D&fbclid=IwAR0l50Rd_0BddT0ZNu3mcNz4ZTpelVj882Zv6vtrVpll1YCCXfAY1n-rnBY">
+                                            <FiInstagram className='team_social' />
+                                        </a>
                                     </div>
                                 </div>
                                 <div className="team_content">
@@ -43,9 +52,15 @@ const OurTeam = () => {
                                         width={350}
                                     />
                                     <div className="overlay">
-                                        <a href="#"><i className="fa-brands fa-facebook-f"></i></a>
-                                        <a href="#"><i className="fa-brands fa-linkedin-in"></i></a>
-                                        <a href="#"><i className="fa-brands fa-instagram"></i></a>
+                                        <a href="https://www.facebook.com/sadik.joarder.39" target={'_blank'} rel="noreferrer">
+                                            <FaFacebookF className='team_social' />
+                                        </a>
+                                        <a href="https://www.linkedin.com/in/sadikhossain/" target={'_blank'} rel="noreferrer">
+                                            <AiFillLinkedin className='team_social' />
+                                        </a>
+                                        <a href="https://www.instagram.com/sadikhossain376/" target={'_blank'} rel="noreferrer">
+                                            <FiInstagram className='team_social' />
+                                        </a>
                                     </div>
                                 </div>
                                 <div className="team_content">
@@ -64,9 +79,12 @@ const OurTeam = () => {
                                         width={350}
                                     />
                                     <div className="overlay">
-                                        <a href="https://www.facebook.com/manabendra.singha.169"><i className="fa-brands fa-facebook-f"></i></a>
-                                        <a href="https://www.linkedin.com/in/manabendra-singha-7a205717b/"><i className="fa-brands fa-linkedin-in"></i></a>
-                                        <a href="#"><i className="fa-brands fa-instagram"></i></a>
+                                        <a href="https://www.facebook.com/manabendra.singha.169" target={'_blank'} rel="noreferrer">
+                                            <FaFacebookF className='team_social' />
+                                        </a>
+                                        <a href="https://www.linkedin.com/in/manabendra-singha-7a205717b/" target={'_blank'} rel="noreferrer"><AiFillLinkedin className='team_social' /></a>
+                                        <a href="https://www.instagram.com/here_singha/" target={'_blank'} rel="noreferrer">
+                                            <FiInstagram className='team_social' />  </a>
                                     </div>
                                 </div>
                                 <div className="team_content">

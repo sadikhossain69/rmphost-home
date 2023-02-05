@@ -1,10 +1,10 @@
 import companyLogo from '@/assets/company_logo.png';
 import Image from 'next/image';
-import { BsDribbble, BsFacebook, BsInstagram, BsLinkedin, BsPinterest } from 'react-icons/bs';
-import { FiInstagram } from 'react-icons/fi';
-import { FaFacebookF, FaLinkedinIn } from 'react-icons/fa';
+import { BsDribbble, BsFacebook, BsFillTelephoneFill, BsInstagram, BsLinkedin, BsPinterest } from 'react-icons/bs';
+import { FiInstagram, FiMessageSquare } from 'react-icons/fi';
+import { FaBuilding, FaFacebookF, FaLinkedinIn } from 'react-icons/fa';
 import { AiFillLinkedin } from 'react-icons/ai';
-import Instagram from "@/assets/Icons/instagram.svg";
+import { GoLocation } from 'react-icons/go';
 
 const FooterSection = () => {
 
@@ -30,25 +30,26 @@ const FooterSection = () => {
                                 <h6>Contact</h6>
                                 <div className="footer_2_items d-flex">
                                     <div className="footer_icons">
-                                        <i className="fa-solid fa-building"></i>
+                                        <FaBuilding className='single_social_icons_2' size={15} />
                                     </div>
                                     <span>Rpmhost Ltd</span>
                                 </div>
                                 <div className="footer_2_items d-flex">
                                     <div className="footer_icons">
-                                        <i className="fa-solid fa-location-dot"></i>
+                                        <GoLocation className='single_social_icons_2' size={15} />
                                     </div>
                                     <span>FX2W+GF4, Raghunathpur, Ghoradhara, Jhargram, West Bengal 721507</span>
                                 </div>
                                 <div className="footer_2_items d-flex">
                                     <div className="footer_icons">
-                                        <i className="fa-solid fa-phone"></i>
+                                        <BsFillTelephoneFill className='single_social_icons_2' size={15} />
                                     </div>
                                     <span>+91 70473 84947</span>
                                 </div>
                                 <div className="footer_2_items d-flex">
                                     <div className="footer_icons">
-                                        <i className="fa-solid fa-message"></i>
+                                        {/* <i className="fa-solid fa-message"></i> */}
+                                        <FiMessageSquare className='single_social_icons_2' size={15} />
                                     </div>
                                     <span>info@rpmhost.in
                                     </span>

@@ -476,18 +476,19 @@ margin-top: 26px;
     transform:scale(1);
     opacity: 1;
 }
-.overlay a i{
+.overlay a .team_social{
 margin-right: 10px;
 height: 40px;
 width: 40px;
 background-color:var(--primary-background);
-line-height: 40px;
+/* line-height: 40px; */
+padding: 10px;
 text-align: center;
 border-radius: 50%;
 color:var(--secondary-color);
 transition: .5s;
 }
-.overlay a i:hover{
+.overlay a .team_social:hover{
     background-color: rgb(35, 233, 240);
     color:var(--primary-background);
 }
@@ -631,7 +632,7 @@ text-transform: uppercase;
     font-weight: 500;
     line-height: 27px;
 }
-.footer_2_items i{
+.single_social_icons_2{
     color: var(--primary-background);
     font-size: 14px;
     margin-right: 18px;
@@ -694,6 +695,9 @@ text-transform: uppercase;
     background-color: var(--primary-background);
     color: var(--secondary-color);
 }
+/* .single_social_icons_2{
+    color: white;
+} */
 .hrs{
     color: var(--primary-background);
     margin-top: 60px;
