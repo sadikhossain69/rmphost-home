@@ -43,7 +43,7 @@
     }
     .finish_projects {
         width: 120px;
-        bottom: 0%;
+        bottom: -9%;
         right: 0%;
     }
     .finish_projects p {
@@ -114,9 +114,7 @@
     }
 
     /* team part css */
-    .team_items {
-        height: 540px;
-    }
+
     .team_content p {
         font-size: 13px;
     }
