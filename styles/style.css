@@ -155,8 +155,13 @@ p{
     border: 1px solid rgb(47, 238, 212);
     padding: 15px;
     border-radius: 10px;
-    height: 390px;
     transition:all linear .5s;
+}
+.service_border{
+    padding-bottom: 36px;
+}
+.service_side{
+    padding-bottom: 2.2rem;
 }
 .service_1:hover{
     box-shadow: 0px 0px 8px 1px rgb(47 238 212);
@@ -407,8 +412,10 @@ margin-bottom: 40px;
     border: 2px solid rgb(47, 238, 212);
     border-radius: 20px; 
     padding:15px;
-    height: 570px;
     transition:all linear .5s;
+}
+.team_padding{
+    padding-bottom: 43px;
 }
 .team_items:hover{
     transform: translateY(-20px);

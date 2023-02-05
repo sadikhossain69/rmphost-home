@@ -14,7 +14,7 @@ const OurTeam = () => {
                     </div>
                     <div className="row">
                         <div className="col-lg-4 col-sm-6">
-                            <div className="team_items">
+                            <div className="team_items team_padding">
                                 <div className="team_img">
                                     <Image
                                         src={Sakkhar}
@@ -35,7 +35,7 @@ const OurTeam = () => {
                             </div>
                         </div>
                         <div className="col-lg-4 col-sm-6">
-                            <div className="team_items">
+                            <div className="team_items team_padding">
                                 <div className="team_img">
                                     <Image
                                         src={Sadik}
@@ -61,7 +61,7 @@ const OurTeam = () => {
                                     <Image
                                         src={Manabendra}
                                         alt="Manabendra"
-                                        width={320}
+                                        width={350}
                                     />
                                     <div className="overlay">
                                         <a href="https://www.facebook.com/manabendra.singha.169"><i className="fa-brands fa-facebook-f"></i></a>

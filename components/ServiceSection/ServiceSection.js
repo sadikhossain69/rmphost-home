@@ -31,7 +31,7 @@ const ServiceSection = () => {
                             </div>
                         </div>
                         <div data-aos="zoom-in" className="col-lg-3 col-sm-6">
-                            <div className="service_1">
+                            <div className="service_1 service_border">
                                 <div className="service_img">
                                     <Image
                                         src={service1}
@@ -63,7 +63,7 @@ const ServiceSection = () => {
                             </div>
                         </div>
                         <div data-aos="zoom-in" className="col-lg-3 col-sm-6">
-                            <div className="service_1">
+                            <div className="service_1 service_side">
                                 <div className="service_img">
                                     <Image
                                         src={service3}
