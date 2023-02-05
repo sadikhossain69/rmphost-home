@@ -2,6 +2,9 @@ import React, { useState } from 'react';
 import { useForm } from 'react-hook-form';
 import emailjs from "@emailjs/browser";
 import cogoToast from 'cogo-toast'; // npm install cogo-toast
+import { GoLocation } from 'react-icons/go';
+import { FiMessageSquare } from 'react-icons/fi';
+import { BsFillTelephoneFill } from 'react-icons/bs';
 
 
 // service_bt81aau - service id
@@ -106,19 +109,19 @@ const ContactUsSection = () => {
                             <div className="contact_bottom">
                                 <div className="contact_bottom1 d-flex">
                                     <div className="contact_bottom_icons">
-                                        <i className="fa-solid fa-phone"></i>
+                                    <BsFillTelephoneFill className='contact_right_icons'/>
                                     </div>
                                     <span>+91 70473 84947, +8801737850178, +8801842593133</span>
                                 </div>
                                 <div className="contact_bottom1 d-flex">
                                     <div className="contact_bottom_icons">
-                                        <i className="fa-solid fa-message"></i>
+                                    <FiMessageSquare className='contact_right_icons' />
                                     </div>
                                     <span>info@rpmhost.in</span>
                                 </div>
                                 <div className="contact_bottom1 d-flex">
                                     <div className="contact_bottom_icons">
-                                        <i className="fa-solid fa-location-dot"></i>
+                                    <GoLocation className='contact_right_icons'/>
                                     </div>
                                     <span> 5 matha more, Raghunathpur, Ghoradhara, Jhargram, West Bengal 721507</span>
                                 </div>

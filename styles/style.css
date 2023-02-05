@@ -579,11 +579,11 @@ text-transform: uppercase;
     margin-bottom: 35px;
 }
 .contact_bottom1{
-    margin-bottom: 20px;
+    margin-bottom: 24px;
 }
-.contact_bottom1 i {
+.contact_bottom1 .contact_right_icons {
     color: yellow;
-    font-size: 20px;
+    font-size: 22px;
     margin-right: 20px;
     margin-top: 5px;
 }
