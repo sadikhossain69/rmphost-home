@@ -384,7 +384,7 @@
         padding-top:0px;
     }
     .gave_header h2 {
-        font-size: 39px;
+        font-size: 35px;
     }
     .gave_header h4 {
         margin-top: 10px;
@@ -607,7 +607,7 @@
         padding-top: 20px;
     }
     .gave_header h2 {
-        font-size: 36px;
+        font-size: 35px;
         text-align: center;
         padding-bottom: 15px;
     }
@@ -725,5 +725,8 @@
     }
     .footer_4 {
         margin: 40px 0 0 15px;
+    }
+    .footer_copy p {
+        font-size: 14px;
     }
 }
