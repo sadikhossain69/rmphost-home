@@ -724,9 +724,9 @@ text-transform: uppercase;
 .whatsapp_icon {
     position: fixed;
     color: white;
-    right: 30px;
-    bottom: 30px;
-    background-image: radial-gradient(#48bcf1,#060606);
+    right: 25px;
+    bottom: 20px;
+    background-image: radial-gradient(#48f15d,#3f4839c2);
     /* width: 70px;
     height: 70px; */
     padding: 11px;
