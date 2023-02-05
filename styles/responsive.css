@@ -142,8 +142,8 @@
     }
     .get_special {
         width: 200px;
-        bottom: 6%;
-        left: 31%;
+        bottom: 7%;
+        left: 64%;
     }
     .get_special h6 {
         font-size: 16px;
@@ -279,7 +279,7 @@
 /* contact part css */
 .get_special {
 	width: 220px;
-	bottom: 40%;
+	bottom: 9%;
 	left: 71%;
 }
 .contact_right {
@@ -348,6 +348,11 @@
     }
     .service_1 {
         margin-bottom: 35px;
+        padding-bottom: 50px;
+    }
+
+    .service_border{
+        padding-bottom: 4.3rem;
     }
 
     /* counter part css */
@@ -407,14 +412,13 @@
         font-size: 17px;
     }
     .team_items {
-        height: 510px;
         margin-bottom: 40px;
     }
    
 
     /* contact part css */
     .get_special {
-        bottom: 46%;
+        bottom: 10%;
         left: 64%;
         width: 200px;
     }
