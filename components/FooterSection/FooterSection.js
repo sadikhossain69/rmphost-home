@@ -1,6 +1,10 @@
 import companyLogo from '@/assets/company_logo.png';
 import Image from 'next/image';
-import { BsDribbble, BsFacebook, BsInstagram, BsLinkedin } from 'react-icons/bs';
+import { BsDribbble, BsFacebook, BsInstagram, BsLinkedin, BsPinterest } from 'react-icons/bs';
+import { FiInstagram } from 'react-icons/fi';
+import { FaFacebookF, FaLinkedinIn } from 'react-icons/fa';
+import { AiFillLinkedin } from 'react-icons/ai';
+import Instagram from "@/assets/Icons/instagram.svg";
 
 const FooterSection = () => {
 
@@ -70,13 +74,19 @@ const FooterSection = () => {
                             <div className="footer_4">
                                 <h6>Our Social Media</h6>
                                 <div className="social_iconss">
-                                    <a target={"_blank"} rel="noreferrer" href="https://www.facebook.com/yourdevloper.io/"> <BsFacebook /> </a>
-                                    <a href="https://www.linkedin.com/in/rpm-host-59a06a264/"><BsLinkedin /></a>
-                                    {/* <a href="#"><i className="fa-brands fa-pinterest-p"></i></a> */}
-                                    <a href="https://www.instagram.com/p/CgedHFAhd8F/?igshid=YmMyMTA2M2Y%3D">
-                                        <BsInstagram />
+                                    <a target={"_blank"} rel="noreferrer" href="https://www.facebook.com/rpmhost.in"> <FaFacebookF className='single_social_icons' /> </a>
+                                    <a target={'_blank'} rel="noreferrer" href="https://www.linkedin.com/in/rpm-host-59a06a264/"><AiFillLinkedin
+                                        className='single_social_icons' size={50}
+                                    /></a>
+                                    <a href="#">
+                                        <BsPinterest
+                                            className='single_social_icons' size={50}
+                                        />
                                     </a>
-                                    <a href="#"> <i><BsDribbble /></i></a>
+                                    <a href="https://www.instagram.com/rpmhost.in/" target={'_blank'} rel="noreferrer">
+                                        <FiInstagram className='single_social_icons' size={50} />
+                                    </a>
+                                    <a href="#"><BsDribbble className='single_social_icons' size={50} /></a>
                                 </div>
                             </div>
                         </div>
