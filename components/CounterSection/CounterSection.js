@@ -4,8 +4,13 @@ import Client3 from '@/assets/client3.png';
 import Client4 from '@/assets/client4.png';
 import Image from 'next/image';
 import CountUp from 'react-countup';
+import ScrollTrigger from 'react-scroll-trigger';
+import { useState } from 'react';
 
 const CounterSection = () => {
+
+    const [isInViewport, setIsInViewport] = useState(false);
+
     return (
         <>
             <section id="counter_part">
@@ -14,13 +19,16 @@ const CounterSection = () => {
                         <div className="col-lg-3 col-6 col-sm-3">
                             <div className="counter_1">
                                 <div className="counter_img">
-                                    <Image 
+                                    <Image
                                         src={Counter1}
                                         alt="Counter1"
                                     />
                                 </div>
                                 <div className="counter_content">
-                                    <h4><CountUp end={45} duration={3} /> <span>+</span></h4>
+                                    <ScrollTrigger onEnter={() => setIsInViewport(true)}
+                                        onExit={() => setIsInViewport(false)}>
+                                        {isInViewport && <h4><CountUp end={45} duration={3} /> <span>+</span></h4>}
+                                    </ScrollTrigger>
                                     <h5>Projects</h5>
                                 </div>
                             </div>
@@ -34,7 +42,10 @@ const CounterSection = () => {
                                     />
                                 </div>
                                 <div className="counter_content">
-                                    <h4><CountUp end={120} duration={2.79} />  <span>+</span></h4>
+                                    <ScrollTrigger onEnter={() => setIsInViewport(true)}
+                                        onExit={() => setIsInViewport(false)}>
+                                        {isInViewport && <h4><CountUp end={120} duration={2.79} />  <span>+</span></h4>}
+                                    </ScrollTrigger>
                                     <h5>Clients</h5>
                                 </div>
                             </div>
@@ -48,7 +59,10 @@ const CounterSection = () => {
                                     />
                                 </div>
                                 <div className="counter_content">
-                                    <h4><CountUp end={120} duration={2.79} />  <span>+</span></h4>
+                                    <ScrollTrigger onEnter={() => setIsInViewport(true)}
+                                        onExit={() => setIsInViewport(false)}>
+                                        {isInViewport && <h4><CountUp end={120} duration={2.79} />  <span>+</span></h4>}
+                                    </ScrollTrigger>
                                     <h5>Success</h5>
                                 </div>
                             </div>
@@ -62,7 +76,10 @@ const CounterSection = () => {
                                     />
                                 </div>
                                 <div className="counter_content">
-                                    <h4><CountUp end={100} duration={2.50} />  <span>+</span></h4>
+                                    <ScrollTrigger onEnter={() => setIsInViewport(true)}
+                                        onExit={() => setIsInViewport(false)}>
+                                        {isInViewport && <h4><CountUp end={120} duration={2.79} />  <span>+</span></h4>}
+                                    </ScrollTrigger>
                                     <h5>Awards</h5>
                                 </div>
                             </div>
