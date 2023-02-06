@@ -17,6 +17,7 @@ const LogoSection = () => {
                 <div className="container">
                     <div className="row">
                         <Swiper
+                            loop={true}
                             spaceBetween={100}
                             breakpoints={{
                                 // when window width is >= 640px
@@ -38,6 +39,61 @@ const LogoSection = () => {
                             onSwiper={(swiper) => console.log(swiper)}
 
                         >
+                            <SwiperSlide>
+                                <div className="col-lg col-12 col-md-auto">
+                                    <div className="logos logos_mar">
+                                        <Image
+                                            src={Logo5}
+                                            alt="Picture of the Logo5"
+                                            width={150}
+                                        />
+                                    </div>
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <div className="col-lg col-12 col-md-auto">
+                                    <div className="logos logos_mar">
+                                        <Image
+                                            src={Logo2}
+                                            alt="Picture of the Logo2"
+                                            width={150}
+                                        />
+                                    </div>
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <div className="col-lg col-12 col-md-auto">
+                                    <div className="logos">
+                                        <Image
+                                            src={Logo3}
+                                            alt="Picture of the Logo3"
+                                            width={150}
+                                        />
+                                    </div>
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <div className="col-lg col-12 col-md-auto">
+                                    <div className="logos">
+                                        <Image
+                                            src={Logo4}
+                                            alt="Picture of the Logo4"
+                                            width={150}
+                                        />
+                                    </div>
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <div className="col-lg col-12 col-md-auto">
+                                    <div className="logos marsis">
+                                        <Image
+                                            src={Logo1}
+                                            alt="Picture of the Logo1"
+                                            width={150}
+                                        />
+                                    </div>
+                                </div>
+                            </SwiperSlide>
                             <SwiperSlide>
                                 <div className="col-lg col-12 col-md-auto">
                                     <div className="logos logos_mar">
