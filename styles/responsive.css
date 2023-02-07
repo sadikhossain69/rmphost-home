@@ -41,9 +41,7 @@
         padding: 90px 0 100px 0;
     }
 
-    .hero_left {
-        margin: 20px 0 0 15px;
-    }
+    
 
     .navbar_items li {
         padding: 0 4px;
@@ -57,13 +55,11 @@
         font-size: 14px;
     }
 
-    .hero_right img {
-        margin-left: 10px;
-    }
+    
 
     .finish_projects {
         width: 120px;
-        bottom: -9%;
+        bottom: -0%;
         right: 0%;
     }
 
