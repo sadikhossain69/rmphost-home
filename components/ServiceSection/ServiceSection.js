@@ -14,7 +14,7 @@ const ServiceSection = () => {
                         <h2>Our <span>Service</span></h2>
                     </div>
                     <div className="row">
-                        <div data-aos="zoom-in" className="col-lg-3 col-sm-6">
+                        <div data-aos="zoom-in" className="col-lg-3 col-sm-6 py-4">
                             <div className="service_1">
                                 <div className="service_img">
                                     <Image
@@ -30,7 +30,7 @@ const ServiceSection = () => {
                                 </div>
                             </div>
                         </div>
-                        <div data-aos="zoom-in" className="col-lg-3 col-sm-6">
+                        <div data-aos="zoom-in" className="col-lg-3 col-sm-6 py-4">
                             <div className="service_1 service_border">
                                 <div className="service_img">
                                     <Image
@@ -46,7 +46,7 @@ const ServiceSection = () => {
                                 </div>
                             </div>
                         </div>
-                        <div data-aos="zoom-in" className="col-lg-3 col-sm-6">
+                        <div data-aos="zoom-in" className="col-lg-3 col-sm-6 py-4">
                             <div className="service_1">
                                 <div className="service_img">
                                     <Image
@@ -62,7 +62,7 @@ const ServiceSection = () => {
                                 </div>
                             </div>
                         </div>
-                        <div data-aos="zoom-in" className="col-lg-3 col-sm-6">
+                        <div data-aos="zoom-in" className="col-lg-3 col-sm-6 py-4">
                             <div className="service_1 service_side">
                                 <div className="service_img">
                                     <Image

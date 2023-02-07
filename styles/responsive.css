@@ -24,9 +24,7 @@
 }
 
 @media(min-width:992px) and (max-width:1199.98px) {
-    * {
-        overflow-x: hidden !important;
-    }
+    
 
     .navbs_logo img {
         max-width: 130px;
@@ -48,7 +46,7 @@
     }
 
     .hero_left h1 {
-        font-size: 41px;
+        font-size: 34px;
     }
 
     .hero_left p {
@@ -150,6 +148,9 @@
     .team_content p {
         font-size: 13px;
     }
+    .Team_header {
+        margin-bottom: 25px;
+    }
 
     /* contact part css */
     .contact_right {
@@ -179,7 +180,7 @@
     .get_special {
         width: 200px;
         bottom: 7%;
-        left: 64%;
+        left: 58%;
     }
 
     .get_special h6 {

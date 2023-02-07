@@ -16,10 +16,11 @@ const OurTeam = () => {
                         <h2>Our <span>Team</span></h2>
                     </div>
                     <div className="row">
-                        <div className="col-lg-4 col-sm-6">
+                        <div className="col-lg-4 col-sm-6 py-4">
                             <div className="team_items team_padding">
                                 <div className="team_img">
                                     <Image
+                                    className='single_team_img'
                                         src={Sakkhar}
                                         alt="Sakkhar"
                                         width={350}
@@ -43,10 +44,11 @@ const OurTeam = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-sm-6">
+                        <div className="col-lg-4 col-sm-6 py-4">
                             <div className="team_items team_padding">
                                 <div className="team_img">
                                     <Image
+                                        className='single_team_img'
                                         src={Sadik}
                                         alt="Sadik"
                                         width={350}
@@ -70,10 +72,11 @@ const OurTeam = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-sm-6">
+                        <div className="col-lg-4 col-sm-6 py-4">
                             <div className="team_items">
                                 <div className="team_img">
                                     <Image
+                                    className='single_team_img'
                                         src={Manabendra}
                                         alt="Manabendra"
                                         width={350}

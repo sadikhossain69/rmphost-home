@@ -47,7 +47,7 @@ const ContactUsSection = () => {
                     <h2>Contact <span>us</span></h2>
                 </div>
                 <div className="row">
-                    <div data-aos="fade-right" className="col-lg-6">
+                    <div data-aos="fade-right" className="col-lg-6 py-2">
                         <div className="contact_left">
                             <form onSubmit={handleSubmit(handleContactForm)}>
                                 <div className="input">

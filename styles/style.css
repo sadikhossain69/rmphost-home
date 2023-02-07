@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    overflow-x: hidden !important;
 }
 
 a {
@@ -30,7 +31,8 @@ ol {
 
 body {
     font-family: 'Open Sans', sans-serif;
-    overflow-x: hidden !important;
+    /* overflow-x: hidden !important; */
+    background-color: var(--secondary-color);
 
 }
 
@@ -127,6 +129,7 @@ p {
 .hero_right .hero_right_img {
     width: 100%;
     margin-left: 20px;
+    height: fit-content;
 }
 
 .finishss {
@@ -200,7 +203,7 @@ p {
 }
 
 .service_side {
-    padding-bottom: 2.2rem;
+    padding-bottom: 1.2rem;
 }
 
 .service_1:hover {
@@ -515,10 +518,11 @@ p {
 
 }
 
-.team_img img {
+.team_img .single_team_img {
     width: 100%;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    height: fit-content;
 }
 
 .team_content h3 {
