@@ -52,9 +52,7 @@ export default function Home() {
       {/* Contact Us Section Imported */}
       <ContactUsSection />
 
-      <a href="https://wa.me/917047384947" target={'_blank'} rel="noreferrer">
-        <SiWhatsapp className='whatsapp_icon' size={50} />
-      </a>
+      
 
       {/* Footer Section Imported */}
       <FooterSection />

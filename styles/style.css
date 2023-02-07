@@ -721,6 +721,9 @@ text-transform: uppercase;
 
 
 /* Whatsapp icon desing part start */
+.whatsapp_position{
+    position: relative;
+}
 .whatsapp_icon {
     position: fixed;
     color: white;

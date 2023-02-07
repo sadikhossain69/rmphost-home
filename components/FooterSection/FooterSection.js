@@ -5,6 +5,7 @@ import { FiInstagram, FiMessageSquare } from 'react-icons/fi';
 import { FaBuilding, FaFacebookF, FaLinkedinIn } from 'react-icons/fa';
 import { AiFillLinkedin } from 'react-icons/ai';
 import { GoLocation } from 'react-icons/go';
+import { SiWhatsapp } from 'react-icons/si';
 
 const FooterSection = () => {
 
@@ -13,7 +14,7 @@ const FooterSection = () => {
     return (
         <>
             <section id="footer_part">
-                <div className="container">
+                <div className="container whatsapp_position">
                     <div className="row">
                         <div className="col-lg-3 col-md-6">
                             <div className="footer_1">
@@ -92,7 +93,9 @@ const FooterSection = () => {
                             </div>
                         </div>
                     </div>
-
+                    <a href="https://wa.me/917047384947" target={'_blank'} rel="noreferrer">
+                        <SiWhatsapp className='whatsapp_icon' size={50} />
+                    </a>
                 </div>
                 <hr className="hrs" />
                 <div className="footer_copy">
