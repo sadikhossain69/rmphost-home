@@ -1,6 +1,6 @@
 import companyLogo from '@/assets/company_logo.png';
 import Image from 'next/image';
-import { BsDribbble, BsFacebook, BsFillTelephoneFill, BsInstagram, BsLinkedin, BsPinterest } from 'react-icons/bs';
+import { BsDribbble, BsFacebook, BsFillTelephoneFill, BsInstagram, BsLinkedin, BsPinterest, BsTwitter } from 'react-icons/bs';
 import { FiInstagram, FiMessageSquare } from 'react-icons/fi';
 import { FaBuilding, FaFacebookF, FaLinkedinIn } from 'react-icons/fa';
 import { AiFillLinkedin } from 'react-icons/ai';
@@ -80,7 +80,7 @@ const FooterSection = () => {
                                         className='single_social_icons' size={50}
                                     /></a>
                                     <a href="#">
-                                        <BsPinterest
+                                        <BsTwitter
                                             className='single_social_icons' size={50}
                                         />
                                     </a>
