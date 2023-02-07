@@ -439,9 +439,10 @@ p {
     font-weight: 500;
 }
 
-.gave_right img {
-    width: 650px;
-    margin-top: 90px;
+.gave_right .gave_right_img {
+    width: 100%;
+    height: fit-content;
+    margin-top: 150px;
 
 }
 

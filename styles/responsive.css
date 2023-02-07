@@ -3,11 +3,39 @@
         overflow-x: hidden !important;
     }
 
-    .finish_projects {
-        bottom: -10%;
-        right: -1%;
+    
+
+    .hero_left h1 {
+        font-size: 50px;
+    }
+    .hero_right .hero_right_img {
+        width: 100%;
+        margin-left: 30px;
+        height: fit-content;
     }
 
+    .finish_projects {
+        width: 125px;
+        padding: 15px 0;
+        bottom: 1%;
+        right: 0%;
+    }
+
+    .gave_right .gave_right_img {
+        margin-top: 100px;
+    
+    }
+    .finish_projects p {
+        font-size: 20px;
+        font-weight: 700;
+        color: var(--primary-background);
+    }
+    
+    .finish_projects h6 {
+        color: var(--primary-background);
+        font-weight: 600;
+        font-size: 14px;
+    }
     .service_1 {
         height: 400px;
     }
@@ -18,8 +46,8 @@
     }
 
     .get_special {
-        bottom: 6%;
-        left: 33%;
+        bottom: 10%;
+        left: 63%;
     }
 }
 
@@ -39,7 +67,10 @@
         padding: 90px 0 100px 0;
     }
 
-    
+    .single_social_icons {
+        height: 35px;
+        width: 35px;
+    }
 
     .navbar_items li {
         padding: 0 4px;

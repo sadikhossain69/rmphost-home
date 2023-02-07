@@ -50,9 +50,9 @@ const WeGaveSection = () => {
                         <div data-aos="fade-left" className="col-lg-6">
                             <div className="gave_right">
                                 <Image
+                                    className='gave_right_img'
                                     src={gaveOffer}
                                     alt="gaveOffer"
-                                    width={600}
                                 />
                             </div>
                             <div className="most_rating">
