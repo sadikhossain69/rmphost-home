@@ -93,9 +93,9 @@ const FooterSection = () => {
                             </div>
                         </div>
                     </div>
-                    {/* <a href="https://wa.me/917047384947" target={'_blank'} rel="noreferrer">
+                    <a href="https://wa.me/917047384947" target={'_blank'} rel="noreferrer">
                         <SiWhatsapp className='whatsapp_icon' size={50} />
-                    </a> */}
+                    </a>
                 </div>
                 <hr className="hrs" />
                 <div className="footer_copy">
