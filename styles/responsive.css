@@ -621,6 +621,11 @@
         color: var(--primary-background);
         font-size: 17px;
     }
+
+    /* Hero section */
+    .hero_right .hero_right_img {
+        margin-left: 0;
+    }
 }
 
 @media(max-width:575.98px) {
