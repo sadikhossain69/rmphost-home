@@ -26,15 +26,7 @@ const OurTeam = () => {
                                         width={350}
                                     />
                                     <div className="overlay">
-                                        <a href="https://www.facebook.com/prodipdas.prodipdas.18041">
-                                            <FaFacebookF className='team_social' />
-                                        </a>
-                                        <a href="https://www.linkedin.com/in/sakkhar-mjmdr-a89b21259">
-                                            <AiFillLinkedin className='team_social' />
-                                        </a>
-                                        <a href="https://www.instagram.com/sakkharmjmdr/?igshid=ZmZhODViOGI%3D&fbclid=IwAR0l50Rd_0BddT0ZNu3mcNz4ZTpelVj882Zv6vtrVpll1YCCXfAY1n-rnBY">
-                                            <FiInstagram className='team_social' />
-                                        </a>
+                                        
                                     </div>
                                 </div>
                                 <div className="team_content">
@@ -54,15 +46,7 @@ const OurTeam = () => {
                                         width={350}
                                     />
                                     <div className="overlay">
-                                        <a href="https://www.facebook.com/sadik.joarder.39" target={'_blank'} rel="noreferrer">
-                                            <FaFacebookF className='team_social' />
-                                        </a>
-                                        <a href="https://www.linkedin.com/in/sadikhossain/" target={'_blank'} rel="noreferrer">
-                                            <AiFillLinkedin className='team_social' />
-                                        </a>
-                                        <a href="https://www.instagram.com/sadikhossain376/" target={'_blank'} rel="noreferrer">
-                                            <FiInstagram className='team_social' />
-                                        </a>
+                                        
                                     </div>
                                 </div>
                                 <div className="team_content">
@@ -82,12 +66,7 @@ const OurTeam = () => {
                                         width={350}
                                     />
                                     <div className="overlay">
-                                        <a href="https://www.facebook.com/manabendra.singha.169" target={'_blank'} rel="noreferrer">
-                                            <FaFacebookF className='team_social' />
-                                        </a>
-                                        <a href="https://www.linkedin.com/in/manabendra-singha-7a205717b/" target={'_blank'} rel="noreferrer"><AiFillLinkedin className='team_social' /></a>
-                                        <a href="https://www.instagram.com/here_singha/" target={'_blank'} rel="noreferrer">
-                                            <FiInstagram className='team_social' />  </a>
+                                        
                                     </div>
                                 </div>
                                 <div className="team_content">

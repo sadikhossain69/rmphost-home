@@ -558,6 +558,7 @@ p {
 }
 
 .team_img .overlay {
+    display: none;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -576,11 +577,13 @@ p {
 }
 
 .team_img:hover .overlay {
+    display: none;
     transform: scale(1);
     opacity: 1;
 }
 
 .overlay a .team_social {
+    display: none;
     margin-right: 10px;
     height: 40px;
     width: 40px;
