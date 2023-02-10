@@ -12,7 +12,7 @@ const LogoSection = () => {
             <section id="logo_part">
                 <div className="container">
                         <div className="row">
-                    <Carousel show={4} slide={3} swiping={true} infinite={true} transition={0.2} >
+                    <Carousel show={3.5} slide={1} swiping={true} infinite={true}  >
 
                             <div className="col-lg col-12 col-md-auto">
                                 <div className="logos logos_mar">
