@@ -1,5 +1,6 @@
 import ContactUsSection from '@/components/ContactUsSection/ContactUsSection'
 import CounterSection from '@/components/CounterSection/CounterSection'
+import EMISection from '@/components/EMISection/EMISection'
 import FooterSection from '@/components/FooterSection/FooterSection'
 import HeroSection from '@/components/HeroSection/HeroSection'
 import LatestProject from '@/components/LatestProject/LatestProject'
@@ -34,6 +35,9 @@ export default function Home() {
 
       {/* Logo Section Imported */}
       <LogoSection />
+
+      {/* EMI Section Imported */}
+      <EMISection />
 
       {/* Service Section Imported */}
       <ServiceSection />
