@@ -23,7 +23,7 @@ const LogoSection = () => {
                         {
                             width <= 768
                             &&
-                            <Carousel show={1} slide={1} swiping={true} infinite={true}  >
+                            <Carousel show={1} slide={1} swiping={true} transition={0} infinite={true} >
 
                                 <div className="col-lg col-12 col-md-auto">
                                     <div className="logos logos_mar">
