@@ -24,7 +24,7 @@ const LogoSection = () => {
                 <div className="container logo_position">
                     <div className="row">
                         {
-                            width <= 768
+                            width < 768
                             &&
                             <Carousel show={1} slide={1} swiping={true} transition={0} infinite={true} leftArrow={<LeftArrow />} rightArrow={<RightArrow />}>
 
@@ -76,9 +76,9 @@ const LogoSection = () => {
                             </Carousel>
                         }
                         {
-                            width > 768 && width <= 1024
+                            (width >= 768 && width <= 1024)
                             &&
-                            <Carousel show={2} slide={2} swiping={true} infinite={true}  >
+                            <Carousel show={3} slide={3} swiping={true} infinite={true}  >
 
                                 <div className="col-lg col-12 col-md-auto">
                                     <div className="logos logos_mar">
