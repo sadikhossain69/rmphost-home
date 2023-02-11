@@ -7,23 +7,26 @@ import Image from 'next/image';
 import { Carousel, ScrollingCarousel } from '@trendyol-js/react-carousel';
 import { useEffect, useState } from 'react';
 import { useWindowSize } from '@react-hook/window-size';
+import RightArrow from '../Custom/RightArrow';
+import LeftArrow from '../Custom/LeftArrow';
+import { BsFillArrowRightCircleFill } from 'react-icons/bs';
 
 
 const LogoSection = () => {
 
     const [width, height] = useWindowSize({ fps: 60 });
-   
+
     console.log(width)
 
     return (
         <>
             <section id="logo_part">
-                <div className="container">
+                <div className="container logo_position">
                     <div className="row">
                         {
                             width <= 768
                             &&
-                            <Carousel show={1} slide={1} swiping={true} transition={0} infinite={true} >
+                            <Carousel show={1} slide={1} swiping={true} transition={0} infinite={true} leftArrow={<LeftArrow />} rightArrow={<RightArrow />}>
 
                                 <div className="col-lg col-12 col-md-auto">
                                     <div className="logos logos_mar">
