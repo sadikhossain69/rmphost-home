@@ -5,6 +5,8 @@ import project3 from '@/assets/project_3.png';
 import project4 from '@/assets/project4.png';
 import project5 from '@/assets/project_5.png';
 import project6 from '@/assets/project7.png';
+import project7 from "@/assets/Icons/new_project1.png"
+import project8 from "@/assets/Icons/new_project2.png"
 import Image from 'next/image';
 
 const LatestProject = () => {
@@ -20,13 +22,14 @@ const LatestProject = () => {
                             <div className="latest_Items">
                                 <div className="latest_img">
                                     <Image 
-                                        src={project1}
+                                        className=""
+                                        src={project7}
                                         alt="project1"
-                                        width={350}
+                                        width={361}
                                     />
                                 </div>
                                 <div className="latest_content">
-                                    <a href="https://www.brightpath.in/">View Project</a>
+                                    <a href="https://doctors-association-8734a.web.app/">View Project</a>
                                 </div>
                             </div>
                         </div>
@@ -34,13 +37,13 @@ const LatestProject = () => {
                             <div className="latest_Items">
                                 <div className="latest_img">
                                     <Image
-                                        src={project2}
-                                        alt="project2"
-                                        width={350}
+                                        src={project8}
+                                        alt="project8"
+                                        width={383}
                                     />
                                 </div>
                                 <div className="latest_content">
-                                    <a href="https://naukrisure.com">View Project</a>
+                                    <a href="https://neighbour-home.web.app/">View Project</a>
                                 </div>
                             </div>
                         </div>
